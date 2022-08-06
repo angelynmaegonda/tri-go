@@ -1,1 +1,1 @@
-# tri-go
+# trigo-app

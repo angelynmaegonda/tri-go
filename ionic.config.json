@@ -1,0 +1,7 @@
+{
+  "name": "trigo-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
