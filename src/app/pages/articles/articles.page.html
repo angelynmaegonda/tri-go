@@ -1,0 +1,343 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="home"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>ARTICLES</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="islandgroups"><h3><center><b>LUZON</b></center></h3></div>
+
+  <ion-card>
+    <center><img (click)="region1()" src="assets/Ilocos Region.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION I: ILOCOS REGION</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Occupying the northwestern section of Luzon and part of Central Luzon plain, the region comprises four provinces: Ilocos Norte,
+      Ilocos Sur, La Union, and Pangasinan.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="region1()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="cordillera()" src="assets/Cordillera.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">CORDILLERA ADMINISTRATIVE REGION (CAR)</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Also known as the Cordillera Region, or simply, Cordillera, it is the only landlocked region in the insular country.
+      It is the least populous region in the Philippines, with a population less than that of the city of Manila.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="cordillera()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="region2()" src="assets/Cagayan Valley.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION II: CAGAYAN VALLEY</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Located in the northeastern section of Luzon Island, it is composed of five Philippine provinces: Batanes, Cagayan, Isabela,
+      Nueva Vizcaya, and Quirino. Most of the land area is situated on the valley between the Cordilleras and the Sierra Madre mountain
+      ranges. Cagayan Valley is the second largest Philippine administrative region by land area.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="region2()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="region3()" src="assets/Central Luzon.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION III: CENTRAL LUZON</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Primarily serving to organize the 7 provinces of the vast central plains of the island of Luzon, the region contains the largest
+      plain in the country and produces most of the country's rice supply, earning itself the nickname, "Rice Granary of the Philippines".
+      Its provinces are: Aurora, Bataan, Bulacan, Nueva Ecija, Pampanga, Tarlac, and Zambales.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="region3()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="ncr()" src="assets/Metro Manila.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">NATIONAL CAPITAL REGION (NCR)</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Also known as Metro Manila, it is the seat of government and one of three defined metropolitan areas in the Philippines
+      (the others being Metro Cebu and Metro Davao). It is composed of 16 cities: the cities of Manila, Quezon City, Caloocan, Las Piñas,
+      Makati, Malabon, Mandaluyong, Marikina, Muntinlupa, Navotas, Parañaque, Pasay, Pasig, San Juan, Taguig, and Valenzuela, as well as
+      the municipality of Pateros. With a population of 13.4 million people, it is the second most populous, and the most densely
+      populated region in the Philippines. The region is the center of culture, economy, education and government of the Philippines.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="ncr()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="region4a()" src="assets/Calabarzon.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION IV-A: CALABARZON</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Formally known as the Southern Tagalog Mainland, the region comprises five provinces: Cavite, Laguna, Batangas, Rizal, and Quezon;
+      The region is the most populous region in the Philippines, having over 14.4 million inhabitants by 2020, and is also
+      the country's second most densely populated after the National Capital Region.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="region4a()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="region4b()" src="assets/Mimaropa.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION IV-B: MIMAROPA</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Also known as the Southwestern Tagalog Region, it is one of two regions in the country having no land border with another region
+      (the other being Eastern Visayas). The name is an acronym, a combination of its constituent provinces: Mindoro
+      (divided into Occidental Mindoro and Oriental Mindoro), Marinduque, Romblon, and Palawan.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="region4b()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="region5()" src="assets/Bicol.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION V: BICOL</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Bicol comprises six provinces, four on the Bicol Peninsula mainland (the southeastern end of Luzon) - Albay, Camarines Norte,
+      Camarines Sur, and Sorsogon - and the offshore island provinces of Catanduanes and Masbate. The Philippines' major religion,
+      Roman Catholicism, has the highest number of followers in the region than any other area in the country.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="region5()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <div class="islandgroups"><h3><center><b>VISAYAS</b></center></h3></div>
+
+  <ion-card>
+    <center><img src="assets/Western Visayas.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION VI: WESTERN VISAYAS</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      It consists of six provinces: Aklan, Antique, Capiz, Guimaras, Iloilo, and Negros Occidental. The region is dominated by
+      the native speakers of four Visayan languages: Hiligaynon, Kinaray-a, Aklanon, and Capiznon. With a population of 7.9 million
+      inhabitants, it is the second most populous region in Visayas, after Central Visayas.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img src="assets/Central Visayas.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION VII: CENTRAL VISAYAS</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      It consists of four provinces: Cebu, Bohol, Negros Oriental, and Siquijor. Major islands are Cebu, Bohol, and Siquijor, together
+      with the eastern part of Negros. The region is dominated by the native speakers of four Visayan languages: Cebuano, Bantayanon,
+      Boholano, and Porohanon. With a population of over 8 million inhabitants, it is the most populous region in Visayas.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img src="assets/Eastern Visayas.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION VIII: EASTERN VISAYAS</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      It consists of three main islands: Samar, Leyte, and Biliran, and comprises six provinces: Biliran, Leyte, Northern Samar, Samar,
+      Eastern Samar, and Southern Leyte. The region's most famous landmark is the San Juanico Bridge, which links the provinces of Samar
+      and Leyte. With a population of 4.5 million inhabitants, it is the third most populous region in Visayas.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <div class="islandgroups"><h3><center><b>MINDANAO</b></center></h3></div>
+
+  <ion-card>
+    <center><img src="assets/Zamboanga Peninsula.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION IX: ZAMBOANGA PENINSULA</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      It consists of three provinces: Zamboanga del Norte, Zamboanga Sibugay, and Zamboanga del Sur. The region was previously known as
+      Western Mindanao. It is also known for its vintas, a traditional and colorful outrigger boat from the Philippine island of
+      Mindanao.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img src="assets/Northern Mindanao.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION X: NORTHERN MINDANAO</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      It comprises five provinces: Bukidnon, Camiguin, Misamis Occidental, Misamis Oriental, and Lanao del Norte, all occupying the
+      north-central part of Mindanao island, and the island-province of Camiguin. The region is dominated by the Cebuano ethnic group,
+      with the Cebuano language being its lingua franca.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img src="assets/Davao Region.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION XI: DAVAO REGION</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      It is situated at the southeastern portion of Mindanao and comprises five provinces: Davao de Oro, Davao del Norte, Davao del Sur,
+      Davao Oriental and Davao Occidental. With a population of 5.2 million people, it is the most populous region in Mindanao.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img src="assets/Soccsksargen.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION XII: SOCCKSKSARGEN</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Located in south-central Mindanao, its name is an acronym that stands for the region's four provinces - South Cotabato, Cotabato,
+      Sultan Kudarat, Sarangani, - and one highly urbanized city - General Santos. The region has extensive coastlines, valleys and
+      mountain ranges. Known for its river system, the region is the drainage basin of Mindanao, particularly at the Cotabato Basin.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img src="assets/Caraga.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">REGION XIII: CARAGA ADMINISTRATIVE REGION</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      The region occupies the northeastern section of Mindanao and comprises five provinces: Agusan del Norte, Agusan del Sur,
+      Dinagat Islands, Surigao del Norte, and Surigao del Sur. It features several beaches, abundant seafood, hot and cold
+      springs, evergreen forests, and balmy weather. Caraga's most famous attraction today is Siargao Island.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img src="assets/Bangsamoro.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM)</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Located in the Mindanao island group of the Philippines, it consists of five predominantly Muslim provinces: Basilan,
+      Lanao del Sur, Maguindanao, Sulu, and Tawi-Tawi. It is the only region that has its own government and the only Muslim-majority
+      autonomous region in the Philippines.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+</ion-content>
