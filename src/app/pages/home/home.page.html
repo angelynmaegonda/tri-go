@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title><center>Welcome, <b (click)="profile()"><u>Magnachild</u></b>!</center></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-tabs>
+
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="tab1" (click)="home()">
+        <ion-icon name="home"></ion-icon>
+        <ion-label>Home</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="tab2" (click)="articles()">
+        <ion-icon name="newspaper"></ion-icon>
+        <ion-label>Articles</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="tab3" (click)="profile()">
+        <ion-icon name="person-circle"></ion-icon>
+        <ion-label>Profile</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  
+  </ion-tabs>
+  
+  <ion-card>
+    <center><img src="assets/Tri-GO (2).png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary"><center><b><font size="5px">WELCOME TO TRI-GO!</font></b></center></ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <div class="paragraph">
+      <p><font size="4px">Tri-Go! is a virtual adventure app that provides you with interesting facts about the countless places located all
+      around the Philippines.</font></p><br><p><font size="4px">From Luzon, Visayas, to Mindanao, Tri-Go! will take you wherever you want to go in the country with just a
+      click of a button.</font></p><br><p><font size="4px">This informative app includes different articles with varying topic that you can read for fun and, at the same
+      time, boost your knowledge of the local geography!</font></p>
+    </div>
+    </ion-card-content>
+    <ion-card-content>
+    <div class="browse">
+      <center><u><font size="4px" (click)="articles()">Click here to start browsing articles!</font></u></center>
+    </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
