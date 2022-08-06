@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="rizalpark"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>Rizal Park</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title><font color="black">Comments </font><font color="gray">2</font></ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-item>
+      <ion-textarea placeholder="Add a comment..." style="height:10px"></ion-textarea>
+    </ion-item>
+  </ion-card-content>
+  <ion-card-content>
+    <ion-item lines="none">
+      <font color="gray" (click)="johnofthecross()"><b>JohnOfTheCross</b></font>
+    </ion-item>
+    <ion-item lines="none">
+      Dr. Jose Rizal was a true Filipino patriot!
+    </ion-item>
+    <ion-item lines="none">
+      <font color="gray" (click)="profile()"><b>Magnachild</b></font>
+    </ion-item>
+    <ion-item lines="none">
+      I think this is the most popular landmark in the Philippines
+    </ion-item>
+  </ion-card-content>
+</ion-card>
+</ion-content>

@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="login" color="tertiary"></ion-back-button>
+        </ion-buttons>
+        <ion-title color="tertiary"><center>CREATE ACCOUNT</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Account Information</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="stacked">Username<font color="#EB445A">*</font></ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Email<font color="#EB445A">*</font></ion-label>
+        <ion-input type="email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Password<font color="#EB445A">*</font></ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Confirm Password<font color="#EB445A">*</font></ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+    </ion-card-content>
+
+    <ion-card-header>
+      <ion-card-title color="tertiary">Address Information</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="stacked">City/Town</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Province</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+  <ion-button color="light" size="full" (click)="register()">Register</ion-button>
+</ion-content>

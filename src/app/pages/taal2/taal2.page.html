@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="taal"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>Taal Volcano</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title><font color="black">Comments </font><font color="gray">1</font></ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-item>
+      <ion-textarea placeholder="Add a comment..." style="height:10px"></ion-textarea>
+    </ion-item>
+  </ion-card-content>
+  <ion-card-content>
+    <ion-item lines="none">
+      <font color="gray" (click)="profile()"><b>Magnachild</b></font>
+    </ion-item>
+    <ion-item lines="none">
+      I'm so proud to be a Batangueño!
+    </ion-item>
+  </ion-card-content>
+</ion-card>
+</ion-content>

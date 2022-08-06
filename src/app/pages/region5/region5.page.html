@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="articles"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>BICOL</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <center><img (click)="mayon()" src="assets/Mayon Volcano.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Mayon Volcano, Albay</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Mayon Volcano, also known as Mount Mayon, is an active stratovolcano in the province of Albay.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="mayon()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="cagsawa()" src="assets/Cagsawa Ruins.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Cagsawa Ruins, Albay</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      The Cagsawa Ruins are the remnants of a 16th-century Franciscan church, the Cagsawa Church, located in Daraga, Albay.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="cagsawa()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="matnog()" src="assets/Subic Beach.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Subic Beach, Sorsogon</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Subic Beach is a pinkish-white sand beach composed of two segments located in the island of Calintaan off Matnog, Sorsogon.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="matnog()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+</ion-content>

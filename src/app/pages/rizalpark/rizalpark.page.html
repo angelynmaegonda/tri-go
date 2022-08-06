@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="ncr"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>Rizal Park</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <center>
+    <img src="assets/Rizal Park.png">
+    <div class="title"><h3><b>Rizal Park, Manila</b></h3></div>
+  </center>
+
+    <p class="paragraph"> It is considered one of the largest urban parks in the Philippines, covering an area of 58 hectares. The site
+    on where the park is situated was originally known as Bagumbayan during the Spanish colonial period. It is adjacent to the historic
+    walled city of Intramuros. </p> <p class="paragraph"> Situated on the eastern shore of Manila Bay, the park plays a significant role in shaping the
+    history of the Philippines. The execution of Filipino patriot, José Rizal, on December 30, 1896 in the same area fanned the flames of
+    the 1896 Philippine Revolution against the Kingdom of Spain. The park was officially named in his honor, and the monument
+    enshrining his remains serves as the park's symbolic focal point. </p> <p class="paragraph"> The declaration of Philippine independence from the United States
+    was held here on July 4, 1946, as well as later political rallies, including those of Ferdinand Marcos and Corazon Aquino, the
+    latter having culminated in the EDSA Revolution in 1986. </p>
+</ion-content>
+
+<ion-card (click)="rizalpark2()">
+  <ion-card-header>
+    <ion-card-title><font color="black">Comments </font><font color="gray">2</font></ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-item>
+      <ion-textarea placeholder="Add a comment..." style="height:10px"></ion-textarea>
+    </ion-item>
+  </ion-card-content>
+</ion-card>

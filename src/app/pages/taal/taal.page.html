@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="region4a"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>Taal Volcano</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <center>
+    <img src="assets/Taal Volcano.png">
+    <div class="title"><h3><b>Taal Volcano, Batangas</b></h3></div>
+  </center>
+
+    <p class="paragraph"> The volcano is second of the most active volcanoes in the country after Mayon Volcano, with 38 recorded
+    historical eruptions, all of which were concentrated on Volcano Island, near the middle of Taal Lake. The caldera was formed by
+    prehistoric eruptions. </p> <p class="paragraph"> Taal Volcano has had several violent eruptions in the past, causing deaths on the
+    island and the populated areas surrounding the lake, with an overall death toll of about 6,000. Because of its proximity to
+    populated areas and its eruptive history, the volcano was designated a Decade Volcano, worthy of close study to prevent future
+    natural disasters. </p> <p class="paragraph"> Permanent settlement on the island is prohibited by the Philippine Institute of Volcanology and Seismology
+    (PHIVOLCS), declaring the whole Volcano Island as a high-risk area and a Permanent Danger Zone (PDZ). Despite the warnings, some
+    families remain settled on the island, earning a living by fishing and farming crops in the rich volcanic soil. </p>
+</ion-content>
+
+<ion-card (click)="taal2()">
+  <ion-card-header>
+    <ion-card-title><font color="black">Comments </font><font color="gray">1</font></ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-item>
+      <ion-textarea placeholder="Add a comment..." style="height:10px"></ion-textarea>
+    </ion-item>
+  </ion-card-content>
+</ion-card>
