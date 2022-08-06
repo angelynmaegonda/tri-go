@@ -1,0 +1,88 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="home"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>PROFILE</center></ion-title>
+        <ion-buttons slot="end">
+          <ion-icon class="logout" name="log-out-outline" style="width:30px;height:30px" defaultHref="home" (click)="login()"></ion-icon>&nbsp;&nbsp;&nbsp;
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-tabs>
+
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="tab1" (click)="home()">
+        <ion-icon name="home"></ion-icon>
+        <ion-label>Home</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="tab2" (click)="articles()">
+        <ion-icon name="newspaper"></ion-icon>
+        <ion-label>Articles</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="tab3" (click)="profile()">
+        <ion-icon name="person-circle"></ion-icon>
+        <ion-label>Profile</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  
+  </ion-tabs>
+
+  <ion-list color="tertiary">
+    <center><ion-avatar slot="start">
+      <img src="assets/Default Avatar.png" />
+    </ion-avatar></center>
+    <ion-item>
+      <ion-label>
+        <h1><center><b>Magnachild</b></center></h1>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <h2>christianrafael.thefabellon@gmail.com</h2>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <h2>Ibaan, Batangas</h2>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-card>
+    <ion-list>
+    <ion-item>
+    <ion-label>
+      <ion-card-subtitle><b>Recent Activities</b></ion-card-subtitle>
+    </ion-label>
+    </ion-item>
+    <ion-item (click)="subic2()">
+    <ion-label>
+      <ion-card-subtitle>Commented on "<font color="#5260FF" (click)="subic2()"><b>Subic Bay</b></font>"</ion-card-subtitle><br>
+      <font color="black">It's so beautiful! I want to go there someday!</font>
+    </ion-label>
+    </ion-item>
+    <ion-item (click)="rizalpark2()">
+    <ion-label>
+      <ion-card-subtitle>Commented on "<font color="#5260FF" (click)="rizalpark2()"><b>Rizal Park, Manila</b></font>"</ion-card-subtitle><br>
+      <font color="black">I think this is the most popular landmark in the<br>Philippines</font>
+    </ion-label>
+    </ion-item>
+    <ion-item (click)="taal2()">
+    <ion-label>
+      <ion-card-subtitle>Commented on "<font color="#5260FF" (click)="taal2()"><b>Taal Volcano, Batangas</b></font>"</ion-card-subtitle><br>
+      <font color="black">I'm so proud to be a Batangueño!</font>
+    </ion-label>
+    </ion-item>
+    </ion-list>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="articles"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>MIMAROPA</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <center><img (click)="puertogalera()" src="assets/Puerto Galera.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Puerto Galera, Oriental Mindoro</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Puerto Galera is a coastal town in the province of Oriental Mindoro.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="puertogalera()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="elnido()" src="assets/El Nido.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">El Nido, Palawan</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      El Nido is a  managed resource protected area known for its white-sand beaches, coral reefs, and limestone cliffs located in
+      Palawan.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="elnido()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="puertoprincesa()" src="assets/Puerto Princesa.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Puerto Princesa, Palawan</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Puerto Princesa is a tourist city located in the western province of Palawan, and is the westernmost city in the country.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="puertoprincesa()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+</ion-content>

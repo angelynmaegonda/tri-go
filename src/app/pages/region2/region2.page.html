@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="articles"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>CAGAYAN VALLEY</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <center><img (click)="batanes()" src="assets/Batanes.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Batanes</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      It is the northernmost province in the country, and also the smallest, both in population and land area.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="batanes()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="capeengano()" src="assets/Cape Engano Lighthouse.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Cape Engaño Lighthouse, Cagayan</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Cape Engaño Lighthouse, also known as Faro de Cabo Engaño, is a historic lighthouse located at Cape Engaño on Palaui Island in the
+      town of Santa Ana, the province of Cagayan.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="capeengano()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="cagua()" src="assets/Cagua Volcano.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Cagua Volcano, Cagayan</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Cagua Volcano is a stratovolcano located in the province of Cagayan.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="cagua()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+</ion-content>

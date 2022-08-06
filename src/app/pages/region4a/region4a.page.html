@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="articles"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>CALABARZON</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <center><img (click)="aguinaldoshrine()" src="assets/Aguinaldo Shrine.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Aguinaldo Shrine, Cavite</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      The Emilio Aguinaldo Shrine is a national shrine located in Kawit, Cavite, where the Philippine Declaration of
+      Independence from Spain was declared on June 12, 1898.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="aguinaldoshrine()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="pagsanjan()" src="assets/Pagsanjan Falls.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Pagsanjan Falls, Laguna</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Pagsanjan Falls, also known as Cavinti Falls (local name: Magdapio Falls), is one of the most famous waterfalls in the country, located in Laguna.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="pagsanjan()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="taal()" src="assets/Taal Volcano.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Taal Volcano, Batangas</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Taal Volcano is a large caldera filled by Taal Lake located in the province of Batangas.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="taal()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+</ion-content>

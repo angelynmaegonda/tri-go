@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="articles"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>NATIONAL CAPITAL REGION</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <center><img (click)="malacanang()" src="assets/Malacanang Palace.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Malacañang Palace, Manila</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Malacañang Palace, officially known as Malacañan Palace, is the official residence and principal workplace of the president of the
+      Philippines.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="malacanang()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="rizalpark()" src="assets/Rizal Park.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Rizal Park, Manila</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Rizal Park, also known as Luneta Park, is a historic urban park located in Ermita, Manila.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="rizalpark()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="intramuros()" src="assets/Intramuros.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Intramuros, Manila</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Intramuros (Latin for "inside the walls") is the 0.67-square-kilometer historic walled area within the city of Manila.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="intramuros()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+</ion-content>

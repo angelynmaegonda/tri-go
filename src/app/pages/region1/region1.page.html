@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="articles"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>ILOCOS REGION</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <center><img (click)="bangui()" src="assets/Bangui Wind Farm.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Bangui Wind Farm, Ilocos Norte</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Bangui Wind Farm is a wind farm in Bangui, Ilocos Norte, arranged in a single row stretching along a 9-kilometer shoreline off
+      Bangui Bay, facing the West Philippine Sea.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="bangui()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="vigan()" src="assets/Vigan.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Vigan, Ilocos Sur</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      It is one of the few Spanish colonial towns left in the Philippines whose old structures have mostly remained intact.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="vigan()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="hundredislands()" src="assets/Hundred Islands.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Hundred Islands, Pangasinan</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      The Hundred Islands National Park is the country's first national park and is a protected area located in Alaminos, Pangasinan.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="hundredislands()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="articles"></ion-back-button>
+        </ion-buttons>
+        <ion-title><center>CENTRAL LUZON</center></ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <center><img (click)="subic()" src="assets/Subic Bay.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Subic Bay</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Subic Bay is a bay on the west coast of the island of Luzon surrounded by Subic and Olongapo City (Zambales), and Morong, Bataan.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="subic()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="pinatubo()" src="assets/Mount Pinatubo.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Mount Pinatubo, Zambales</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Mount Pinatubo is an active stratovolcano in the Zambales Mountains, located on the tripoint boundary of the provinces of Zambales,
+      Tarlac, and Pampanga.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="pinatubo()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <center><img (click)="samat()" src="assets/Dambana ng Kagitingan.png" /></center>
+    <ion-card-header>
+      <ion-card-title color="tertiary">Dambana ng Kagitingan, Bataan</ion-card-title>
+    </ion-card-header>
+    <div class="paragraph">
+    <ion-card-content>
+      Mount Samat National Shrine is a historical shrine located near the summit of Mount Samat in the town of Pilar, Bataan.
+    </ion-card-content>
+    </div>
+    <div class="readmore">
+      <ion-card-content>
+        <ion-icon name="arrow-forward" style="width:25px;height:25px" (click)="samat()"></ion-icon>
+      </ion-card-content>
+    </div>
+  </ion-card>
+</ion-content>
